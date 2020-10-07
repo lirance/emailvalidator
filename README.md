@@ -1,4 +1,4 @@
-#Email Validator System
+# Email Validator System
 
 ### Environment
 In order to compile and run this project correctly, below environments are required:
@@ -8,16 +8,16 @@ In order to compile and run this project correctly, below environments are requi
 * A Web Browser
 
  ### Install(Under the project directory)
- ####- Run the below command to compile and setup:
+ #### - Run the below command to compile and setup:
  * _`mvn install`_
   * or _`mvn install -Dmaven.test.skip=true`_ if the test fails during the building.
- ####- Run the below command to run the tests:
+ #### - Run the below command to run the tests:
  * _`mvn test`_
  
  ### Run the service(Under the project directory)
- ####- Run the below command to run the service:
+ #### - Run the below command to run the service:
  * _`mvn spring-boot:run`_
- ####- Then use the swagger link below to test the API:
+ #### - Then use the swagger link below to test the API:
  * http://localhost:8080/swagger-ui.html#!/emails_api/getUniqueEmailNumsUsingGET
 
  
