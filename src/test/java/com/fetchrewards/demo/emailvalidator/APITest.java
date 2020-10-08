@@ -32,7 +32,7 @@ public class APITest {
     }
 
     @Test
-    public void testExcelGeneration() {
+    public void testGetUniqueEmailNums() {
         given().accept("application/json").param("emailList", Arrays.asList(emails1)).get("/emails").peek().
                 then().assertThat()
                 .statusCode(200)
